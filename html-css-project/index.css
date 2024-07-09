@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* color: black; */
+    /* padding: 0% 20px; */
+    background-color: #FFFCF3;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #333;
+    color: #fff;
+}
+.navbar .logo {
+    flex: 1;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.navbar .nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.navbar .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar .button-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+}
+.box {
+    flex: 1;
+    padding: 20px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    /* border: 1px solid #ccc; */
+    font-size: large;
+    box-sizing: border-box;
+}
+
+.box2 {
+    /* background-color: #e6e6e6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#para {
+    margin-top: 20px;
+    padding-right: 70px;
+}
+.box2 img {
+    /* background: transparent; */
+    background-color: #333;
+    /* min-width: fit-content;
+ */
+ width: 400px;
+}
+#para{
+    font-size: small;
+    font-weight: normal;
+}
+
+
+/* services */
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.services-container{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.service-img{
+    /* margin: 5px; */
+    margin-right: 10px;
+    width: 40px;
+}
+
+.service-content{
+    /* margin: 5px; */
+    padding: 0;
+    line-height: 0;
+}
+
+
+/* categories */
+
+.category-section{
+    padding: 40px;
+}
+.categories-head{
+    /* padding: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; /* Adjust the gap value as needed */
+}
+.category {
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.category img{
+    width: 100%;
+    object-fit: cover;
+}
+.category p{
+    padding: 5px 10px;
+    font-size: 10px;
+    text-align: start;
+}
+.meal-name-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+/* serv */
+.serv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.serv .left{
+    width: 80%;
+}
+.serv .left h1{
+    line-height: 40px;
+}
+
+.circle-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    gap: 20px;
+}
+
+.circle-avatar .avatar{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: #333;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-avatar .avatar img{
+    
+    width: 70%;
+    object-fit: contain;
+}
+
+/* review section */
+
+.review-section{
+    padding: 40px;
+}
+
+.review-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap value as needed */
+}
+.review {
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.user .user-avatar{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: #333;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user .user-avatar img{
+    width: 100%;
+    object-fit: contain;
+}
+.user .user-details{
+    line-height: 0;
+    text-align: start;
+}
+.user .user-details h6{
+    font-weight: 100;
+    text-shadow: #ccc;
+}
+
+.footer-section{
+    background-color: green;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-container{
+    padding: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: #333; */
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+/* common */
+.orange{
+    color: orangered;
+}
+
+.green{
+    color: green;
+}
+
+
+.rounded-button {
+    /* margin: 20px; */
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.rounded-button:hover {
+    background-color: orangered;
+    border: 2px solid orangered;
+    color: white;
+}
+
+
+
+.transparent-button {
+    /* margin: 20px; */
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    /* background-color: green; */
+    /* color: white; */
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+.transparent-button:hover {
+    background-color: orangered;
+    border: 2px solid orangered;
+    color: white;
+}
